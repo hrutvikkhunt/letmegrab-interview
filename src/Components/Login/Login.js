@@ -30,7 +30,7 @@ const Login = () => {
         navigate("/");
       } else {
         toast.error("Email or Password is not matching!", {
-          position: toast.POSITION.TOP_RIGHT,
+          position: toast.POSITION.TOP_RIGHT, 
         });
       }
     } else {
